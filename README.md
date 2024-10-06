@@ -17,7 +17,8 @@ Este projeto é um sistema de gerenciamento de clientes e seus departamentos, de
 Para configurar e executar o projeto:
 1. **Configurar o Banco de Dados:**
    - Instale e inicie o MySQL Workbench.
-   - Abra o script SQL fornecido em `database.sql` para criar o banco de dados e as tabelas necessárias (`clientes`, `departamentos`).
+   - Crie o banco de dados exatamente como está no db.properties, na pasta "other Sources - src\main\resources - default package"
+   - Abra o script SQL fornecido em `database.sql` para criar as tabelas necessárias (`clientes`, `departamentos`).
    - Execute o programa na sua IDE.
 2. **Estrutura do Banco de Dados:**
    - O script contém a estrutura das tabelas e os relacionamentos entre clientes e departamentos.
